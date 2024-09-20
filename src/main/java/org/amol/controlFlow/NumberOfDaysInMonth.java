@@ -1,4 +1,4 @@
-package org.amol.basic.controlFlow;
+package org.amol.controlFlow;
 
 import java.util.Scanner;
 
