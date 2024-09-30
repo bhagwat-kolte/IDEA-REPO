@@ -1,4 +1,4 @@
-package mack.hckrerth.basicIO;
+package mack.hckrerth.basic.inout;
 
 /**
  * @author Bhagwat Kolte

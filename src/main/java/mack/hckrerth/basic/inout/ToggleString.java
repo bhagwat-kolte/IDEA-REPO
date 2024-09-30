@@ -1,4 +1,4 @@
-package mack.hckrerth.basicIO;
+package mack.hckrerth.basic.inout;
 
 import java.io.BufferedReader;
 import java.io.IOException;
