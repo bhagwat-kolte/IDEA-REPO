@@ -1,4 +1,4 @@
-package mack.hckrerth.basic.inout;
+package org.mack.hckrerth.basic.inout;
 
 import java.util.Scanner;
 
