@@ -1,6 +1,8 @@
 package org.amol.dsa.scottb.llist;
 
 import org.amol.dsa.scottb.llist.impl.LinkedList;
+import org.w3c.dom.Node;
+
 
 /**
  * @author Bhagwat Kolte
@@ -16,12 +18,28 @@ public class LinkedListTest {
         list.append(62);
         list.append(26);
         list.append(64);
-
-//        System.out.println("Head = " + list.getHead());
-//        System.out.println("Tail = " + list.getTail());
-//        System.out.println("Length = " + list.getLength());
-
         list.printList();
 
+        System.out.println("Removed = " + list.removeLast().value);
+
+        list.printList();
+        list.prepend(876);
+        list.printList();
+
+        System.out.println("Removed = " + list.removeFirst().value);
+        list.printList();
+
+        System.out.println("Get = " + list.get(3).value);
+        boolean flg = list.set(3, 8765);
+        list.printList();
+
+        boolean flg1 = list.insert(2, 333);
+        list.printList();
+
+        boolean flg2 = list.remove(2);
+        list.printList();
+
+        list.reverse();
+        list.printList();
     }
 }
